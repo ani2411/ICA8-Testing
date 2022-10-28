@@ -112,17 +112,17 @@ public class urinals {
     }
 	public static boolean validateString(String inpStr)
 	{
-		int c=0;
+		int f=0;
 		for(int i=0;i<inpStr.length();i++)
 		{
 			if(inpStr.charAt(i)=='1'  || inpStr.charAt(i)== '0') {
-				c=0;
+				f=0;
 			}
 			else {
-				c=1;
+				f=1;
 			}
 		}
-		if(c==0) {
+		if(f==0) {
 			return true;
 		}
 		else {
