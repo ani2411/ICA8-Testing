@@ -48,6 +48,13 @@ class urinalsTest {
 		assertEquals(-1,u.countUrinals(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST SIX EXECUTED AND PASSED =======");  
 	}
+	@Test
+	void testing7() {
+		urinals u = new urinals();
+		String s = "10000";
+		assertEquals(2,u.countUrinals(s));
+		System.out.println("====== SESHA SAI ANEESWAR == TEST SEVEN EXECUTED AND PASSED =======");  
+	}
 	
 	
 }
