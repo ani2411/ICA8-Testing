@@ -30,7 +30,10 @@ public class urinals {
 				   //System.out.println(count);
 				   myWriter.write(String.valueOf(count));
 				   myWriter.write('\n');
-			   }      
+			   }
+			   else {
+				   System.out.println("Invalid String");
+			   }
         }
 			myWriter.close();
 			}
@@ -50,6 +53,9 @@ public class urinals {
 						int count = countUrinals(String.valueOf(k));
 						System.out.println(count);
 					}
+					 else {
+						   System.out.println("Invalid String");
+					   }
 				}
 			}	
 		}
