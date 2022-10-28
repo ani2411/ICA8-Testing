@@ -6,33 +6,41 @@ class urinalsTest {
 
 	@Test
 	void testing1() {
-		urinals bs = new urinals();
+		urinals u = new urinals();
 		String s = "10001";
-		assertEquals(true,bs.validateString(s));
+		assertEquals(true,u.validateString(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST ONE EXECUTED AND PASSED =======");  
 	}
 	
 	@Test
 	void testing2() {
-		urinals bs = new urinals();
+		urinals u = new urinals();
 		String s = "1231";
-		assertEquals(false,bs.validateString(s));
+		assertEquals(false,u.validateString(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST TWO EXECUTED AND PASSED =======");  
 	}
 	
 	@Test
 	void testing3() {
-		urinals bs = new urinals();
+		urinals u = new urinals();
 		String s = "00";
-		assertEquals(true,bs.validateString(s));
+		assertEquals(true,u.validateString(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST THREE EXECUTED AND PASSED =======");  
 	}
 	@Test
 	void testing4() {
-		urinals bs = new urinals();
+		urinals u = new urinals();
 		String s = "11";
-		assertEquals(true,bs.validateString(s));
+		assertEquals(true,u.validateString(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST FOUR EXECUTED AND PASSED =======");  
 	}
-
+	@Test
+	void testing5() {
+		urinals u = new urinals();
+		String s = "10001";
+		assertEquals(1,u.countUrinals(s));
+		System.out.println("====== SESHA SAI ANEESWAR == TEST FIVE EXECUTED AND PASSED =======");  
+	}
+	
+	
 }
