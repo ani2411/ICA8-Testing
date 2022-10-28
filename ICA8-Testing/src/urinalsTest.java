@@ -27,5 +27,12 @@ class urinalsTest {
 		assertEquals(true,bs.validateString(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST THREE EXECUTED AND PASSED =======");  
 	}
+	@Test
+	void testing4() {
+		urinals bs = new urinals();
+		String s = "11";
+		assertEquals(true,bs.validateString(s));
+		System.out.println("====== SESHA SAI ANEESWAR == TEST FOUR EXECUTED AND PASSED =======");  
+	}
 
 }
