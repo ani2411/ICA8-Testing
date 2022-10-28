@@ -1,3 +1,4 @@
+//Author - Sesha Sai Aneeswar
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -54,6 +55,14 @@ class urinalsTest {
 		String s = "10000";
 		assertEquals(2,u.countUrinals(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST SEVEN EXECUTED AND PASSED =======");  
+	}
+	
+	@Test
+	void testing8() {
+		urinals u = new urinals();
+		String s = "10001";
+		assertEquals(1,u.countUrinals(s));
+		System.out.println("====== SESHA SAI ANEESWAR == TEST EIGHT EXECUTED AND PASSED =======");  
 	}
 	
 	
