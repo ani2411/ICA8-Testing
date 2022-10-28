@@ -15,7 +15,7 @@ class urinalsTest {
 	@Test
 	void testing2() {
 		urinals u = new urinals();
-		String s = "1231";
+		String s = "186";
 		assertEquals(false,u.validateString(s));
 		System.out.println("====== SESHA SAI ANEESWAR == TEST TWO EXECUTED AND PASSED =======");  
 	}
